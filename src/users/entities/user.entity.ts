@@ -1,4 +1,5 @@
-import { Entity, PrimaryGeneratedColumn, Column, CreateDateColumn } from "typeorm";
+import { Entity, PrimaryGeneratedColumn, Column, CreateDateColumn, OneToMany } from "typeorm";
+import { Point } from "@/points/entities/point.entity";
 
 @Entity()
 export class User {
@@ -8,8 +9,8 @@ export class User {
   @Column({ unique: true })
   name: string;
 
-  @Column({ default: 0 })
-  totalPoints: number;
+  @OneToMany(() => Point, (point) => point.user)
+  points: Point[];
 
   @CreateDateColumn()
   createdAt: Date;
