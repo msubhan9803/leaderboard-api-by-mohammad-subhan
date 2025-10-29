@@ -1,0 +1,43 @@
+# Node dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.*
+
+# TypeScript output
+*.tsbuildinfo
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# OS specific
+*.swp
+*~
+
+# Lock files (keep only the one in use, here pnpm)
+package-lock.json
+yarn.lock
+
+# Optional: coverage, test, misc
+coverage/
+nyc_output/
+
+# NPM cache
+.npm/
+
+# Misc
+output.log
