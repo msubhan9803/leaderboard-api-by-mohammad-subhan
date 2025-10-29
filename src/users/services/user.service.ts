@@ -1,6 +1,8 @@
+import { injectable } from "tsyringe";
 import { userRepository } from "@/users/repositories/user.repository";
 import { User } from "@/users/entities/user.entity";
 
+@injectable()
 export class UserService {
   constructor() {}
 
