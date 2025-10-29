@@ -17,8 +17,8 @@ This project is a backend service for managing a leaderboard using `Node.js`, `E
 ## Getting Started
 
 1. Clone the repository.
-2. Install dependencies using `npm install` or `pnpm install`.
-3. Start the development server with `npm run dev` or `pnpm dev`.
+2. Install dependencies using `pnpm install`.
+3. Start the development server with `pnpm dev`.
 
 ## Notes
 
@@ -26,4 +26,4 @@ This project is a backend service for managing a leaderboard using `Node.js`, `E
 
 ## Dependencies
 
-For a full list of dependencies, see `package.json`. Run `npm install` or `pnpm install` to install them.
+For a full list of dependencies, see `package.json`. Run `pnpm install` to install them.
